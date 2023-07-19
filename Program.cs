@@ -22,5 +22,5 @@ int[] GetRandomArray(int Length, int min, int max)
 }
 
 int[] array = GetRandomArray(4, 100, 1000);
-Console.Write($"[{String.Join(",",array)}] -> ");
+Console.Write($"[{String.Join(", ",array)}] -> ");
 Console.Write(GetQuantityEvenNum(array));
